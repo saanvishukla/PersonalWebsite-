@@ -5,9 +5,9 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const competitionItems = [
   {
     id: 1,
-    title: "AI Hackathon",
+    title: "Cathay Hackathon 2024",
     img: "/trial.png",
-    desc: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
+    desc: "Developed OptiTech during the Cathay Hackathon 2024, creating an innovative dashboard to forecast aircraft maintenance needs and streamline operations among more than 1,500 competing students.",
   },
   {
     id: 2,
@@ -96,7 +96,7 @@ const Competitions = () => {
   return (
     <div className="competitions" ref={ref}>
       <div className="progress">
-        <h1>Competitions</h1>
+        <h1>Competitions & Extra Curriculars</h1>
         <motion.div style={{ scaleX }} className="progressBar"></motion.div>
       </div>
       <div className="gridContainer">
