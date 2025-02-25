@@ -51,6 +51,18 @@ const competitionItems = [
     img: "/trial.png",
     desc: "Represented India at Fringe Festival in Scotland securing Best Dance Performance position out of 59,600 performances.",
   },
+  {
+    id: 9,
+    title: "Vice President,WISE",
+    img: "/trial.png",
+    desc: "Led initiatives including networking sessions and workshops, resulting in an 80% increase in participation.",
+  },
+  {
+    id: 10,
+    title: "Curator and Executive Producer,TEDx HKUST ",
+    img: "/trial.png",
+    desc: "Orchestrated the successful execution of TEDx HKUST by managing logistics for an event with 120 participants drawn from more than 535 applicants.",
+  },
 ];
 
 const Competition = ({ item, isReversed }) => {
