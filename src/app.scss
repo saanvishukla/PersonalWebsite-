@@ -1,0 +1,78 @@
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+.main {
+  scroll-snap-type: proximity;
+}
+
+#Homepage {
+  scroll-snap-type: y proximity;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  background-color: black;
+  color: lightgray;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  scroll-snap-type: y mandatory;
+
+  min-height: 100vh;
+  width: 100vw;
+  scroll-snap-align: start;
+  overflow: auto;
+}
+
+.Homepage {
+  scroll-snap-type: y proximity;
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: start;
+  overflow: auto;
+}
+
+.competitions section,
+.contacts {
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: start;
+  overflow: auto;
+}
+
+.contacts section {
+  scroll-snap-type: y proximity;
+}
+
+.skills {
+  min-height: 80px;
+}
+
+@mixin mobile {
+  @media (max-width: 738px) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media (max-width: 1366px) {
+    @content;
+  }
+}
