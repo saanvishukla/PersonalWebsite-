@@ -118,7 +118,7 @@ const Hero = () => {
         initial="initial"
         animate="animate"
       >
-        Writer, Content Creator Influencer, Yapper
+        Programmer, Research Assistant, Writer, Team Leader
       </motion.div>
     </div>
   );
