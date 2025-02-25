@@ -108,7 +108,7 @@ const Competitions = () => {
   return (
     <div className="competitions" ref={ref}>
       <div className="progress">
-        <h1>Competitions & Extra CoCurriculars</h1>
+        <h1>Competitions & Extra Co-Curriculars</h1>
         <motion.div style={{ scaleX }} className="progressBar"></motion.div>
       </div>
       <div className="gridContainer">
