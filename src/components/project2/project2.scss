@@ -35,9 +35,12 @@
   }
 
   .pie_chart {
-    height: auto;
-    width: 50%;
+    width: 20%; /* Or any other width */
+    height: 200px; /* Set an explicit height */
+    object-fit: cover;
   }
+  
+  
   
   .verify {
     width: 60%;
@@ -108,10 +111,12 @@
     display: flex;
     justify-content: space-between; 
     align-items: center; 
-    width: 100%; 
+    width: 50%; 
     margin: 20px 0; 
     gap: 20px; 
   }
+
+
 
   .image-prototype {
     display: grid;
@@ -120,12 +125,14 @@
     width: 100%;
     margin: 20px 0;
   }
-
+  
   .image-grid img {
-    width: 100%;
+    width: 80%; /* Reduce width to make images appear smaller */
+    margin: auto; /* Center the image horizontally */
     aspect-ratio: 4/3; /* Adjust ratio (e.g., 16/9, 1/1) */
     object-fit: cover;
   }
+  
   
   
   

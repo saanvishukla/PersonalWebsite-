@@ -82,7 +82,7 @@ We categorized our gathered information into two sections: user behaviors and bo
 
     
 
-      <div className="double-image-container">
+      <div className="double-image-containe">
         <img src="./questions.png" alt="Persona 2" className="double-image" />
         {/* <img src="/people.png" alt="Persona 1" className="double-image" /> */}
       </div>
@@ -101,14 +101,21 @@ We categorized our gathered information into two sections: user behaviors and bo
 To really connect with our users, we created detailed personas that reflect different perspectives and experiences. For example, we have Julian Lee, a 23-year-old Korean-American who wants to dive deeper into Japan beyond what he learns in textbooks, even if it means using a translator app to help him out. Then there’s Alex Chen, a 22-year-old Chinese business student eager to explore Europe before his semester—and his budget—runs out. We also have Liam O’Connor, a 20-year-old Irish student on a mission to find the perfect wave in Australia while managing his engineering coursework. Lastly, we introduced Maya Patel, a 24-year-old Indian student who captures the beauty of Canada through her camera, all while pretending she’s not freezing in the chilly weather.
 By creating these relatable personas, we aim to truly empathize with our users’ unique needs and preferences. This helps us ensure that our solution effectively tackles the challenges they face when planning their trip
       </p>
-      <div className="image-prototype">
-      <img src="/flowchart.png"  className="verify"  />
-      <img src="/flowchart2.png" className="verify" />
-      <img src="/flowchart3.png" className="verify" />
-      <img src="/flowchart4.png" className="verify"  />
-      <img src="/flowchart5.png" className="verify" />
-      <img src="/flowchart6.png" className="verify" />
+     
+      <div className="double-image-container">
+        <img src="/flowchart.png"  />
+        <img src="/flowchart2.png" />
       </div>
+      <div className="double-image-container">
+        <img src="/flowchart3.png"  />
+        <img src="/flowchart4.png"  />
+      </div>
+      <div className="double-image-container">
+        <img src="/flowchart5.png"  />
+        <img src="/flowchart6.png"  />
+      </div>
+      
+    
       
       <hr className="header-line2" />
       <header className="header">
