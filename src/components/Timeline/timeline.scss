@@ -1,0 +1,124 @@
+$border-radius: 10px;
+$padding-vertical: 2em;
+$padding-horizontal: 3em;
+$breakpoint-mobile: 768px;
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.vertical-timeline-element--work {
+  .vertical-timeline-element-content {
+    box-shadow: 0em 0.25em 0.5em rgba(0, 0, 0, 0.25);
+    background-color: #1e293b;
+    color: #fff;
+    border-radius: $border-radius;
+
+    padding-top: $padding-vertical;
+    padding-bottom: $padding-vertical;
+    padding-left: $padding-horizontal;
+    padding-right: $padding-horizontal;
+  }
+
+  @media only screen and (max-width: $breakpoint-mobile) {
+  }
+}
+
+.vertical-timeline-element-content-arrow {
+  border-right-width: 7px;
+  border-right-style: solid;
+  border-right-color: #1e293b;
+}
+
+.vertical-timeline-element-title {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+
+  @media only screen and (max-width: $breakpoint-mobile) {
+    font-size: 1rem;
+    margin-bottom: 2vw;
+  }
+}
+
+.vertical-timeline-element-subtitle {
+  font-size: 1rem;
+  color: #a3aed0;
+  margin-bottom: 2vw;
+
+  @media only screen and (max-width: $breakpoint-mobile) {
+    font-size: 0.8rem;
+  }
+}
+
+.timeline-description {
+  list-style-type: none;
+  margin-bottom: 4vh;
+  line-height: 160%;
+
+  @media only screen and (max-width: $breakpoint-mobile) {
+    line-height: normal;
+  }
+}
+
+.timeline-date {
+  color: #a3aed0;
+
+  @media only screen and (max-width: $breakpoint-mobile) {
+    font-size: 0.8rem;
+  }
+}
+
+.button {
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.3s;
+  transition-property: background-color;
+}
+
+.workButton {
+  background-color: #06d6a0;
+}
+
+.workButton:hover {
+  background-color: #06d6a080;
+}
+
+.schoolButton {
+  background-color: #f9c74f;
+}
+
+.schoolButton:hover {
+  background-color: #f9c74f80;
+}
+
+.vertical-timeline::before {
+  background: #a3aed2;
+}
+
+.vertical-timeline-element-icon {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(30, 41, 59);
+}
+
+.work-experience-header {
+  animation-name: fadeInScale;
+  animation-duration: 0.8s;
+
+  font-size: min(70px, max(0.05 * 100vh, 0.05 * 100vw));
+  text-align: center;
+  margin-top: max(0.04 * 100vh, 0.04 * 100vw);
+  margin-bottom: max(0.06 * 100vh, 0.06 * 100vw);
+
+  @media only screen and (max-width: $breakpoint-mobile) {
+    font-size: min(40px, max(0.07 * 100vh, 0.07 * 100vw));
+  }
+}

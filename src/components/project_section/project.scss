@@ -1,0 +1,52 @@
+@import "../../app.scss";
+
+.project-section {
+  width: 100%;
+  min-height: auto;
+  position: relative;
+}
+
+.projects {
+  color: white;
+  padding: 50px 0;
+  position: relative;
+  transition: filter 0.3s ease;
+
+  &.blurred {
+    filter: blur(5px);
+  }
+
+  h2 {
+    color: orange;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+  }
+
+  .listContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .box {
+      width: calc(50% - 20px);
+      padding: 50px;
+      margin-bottom: 20px;
+      border: 0.5px solid gray;
+
+      cursor: pointer;
+
+      p {
+        display: block;
+      }
+    }
+  }
+}
+
+@include mobile {
+  .projects .box {
+    width: calc(100% - 20px);
+    padding: 20px;
+  }
+}
