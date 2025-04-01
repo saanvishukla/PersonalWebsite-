@@ -53,8 +53,7 @@ const Project1 = () => {
       To gain insights into these challenges, we used ethnographic methods. We observed and shadowed users in their natural environments—well, as natural as it gets when you're trying to book flights for a midterm break. We even conducted interviews via WhatsApp (because who needs face-to-face when you have emojis?) and sent out Google Forms to gather more data. As we watched my participants plan their trips, we realized that understanding their behaviours in real-time was key to designing solutions that truly meet their needs.
       </p>
       
-      
-
+    
       <hr className="header-line2" />
       <header className="header">
         <h1>Emphatizes</h1>
@@ -68,8 +67,8 @@ We utilized mind mapping and mash-up techniques to focus on usability, simplicit
 We discovered that many students, especially exchange students, travel nearby for enrichment, which became our focus area. To understand our users' needs better, we created an online survey using Google Forms and shared it with friends and peers. The results showed that many students rated our product 4 out of 5. Most respondents travel at least once every few months and face challenges like finding reliable information, overcoming language barriers, and managing time when planning trips. To gain personal insights, we interviewed a fellow exchange student via WhatsApp.
       </p>
      
-    <img src="piechart.png" alt="Pie Chart" classname ="pie_chart"></img>
-
+    <img src="/piechart.png" alt="Pie Chart" classname ="pie_chart"></img>
+      
       <hr className="header-line2" />
       <header className="header">
         <h1>Interpret</h1>
@@ -82,7 +81,7 @@ We categorized our gathered information into two sections: user behaviors and bo
 
     
 
-      <div className="double-image-container">
+      <div className="double-image-containe">
         <img src="./questions.png" alt="Persona 2" className="double-image" />
         {/* <img src="/people.png" alt="Persona 1" className="double-image" /> */}
       </div>
@@ -98,17 +97,25 @@ We categorized our gathered information into two sections: user behaviors and bo
       </header>
       <p className="para3">
       With our target group clearly defined, we took the time to develop a detailed framework that maps out how users currently go about planning their trips. We broke this process down into various sub-goals, like “Plan 0: Do 1, 2, 3” or “Plan 1,” which you can see in the image below. To better understand how users interact with our app, we applied the GOMS (Goals, Operators, Methods, and Selection rules) model to identify key features and objectives. We also outlined specific tasks, such as logging in, creating an itinerary, and modifying it later on.
-To really connect with our users, we created detailed personas that reflect different perspectives and experiences. For example, we have Julian Lee, a 23-year-old Korean-American who wants to dive deeper into Japan beyond what he learns in textbooks, even if it means using a translator app to help him out. Then there’s Alex Chen, a 22-year-old Chinese business student eager to explore Europe before his semester—and his budget—runs out. We also have Liam O’Connor, a 20-year-old Irish student on a mission to find the perfect wave in Australia while managing his engineering coursework. Lastly, we introduced Maya Patel, a 24-year-old Indian student who captures the beauty of Canada through her camera, all while pretending she’s not freezing in the chilly weather.
+To really connect with our users, we created detailed personas that reflect different perspectives and experiences.
+ For example, we have Julian Lee, a 23-year-old Korean-American who wants to dive deeper into Japan beyond what he learns in textbooks, even if it means using a translator app to help him out. Then there’s Alex Chen, a 22-year-old Chinese business student eager to explore Europe before his semester—and his budget—runs out. We also have Liam O’Connor, a 20-year-old Irish student on a mission to find the perfect wave in Australia while managing his engineering coursework. Lastly, we introduced Maya Patel, a 24-year-old Indian student who captures the beauty of Canada through her camera, all while pretending she’s not freezing in the chilly weather.
 By creating these relatable personas, we aim to truly empathize with our users’ unique needs and preferences. This helps us ensure that our solution effectively tackles the challenges they face when planning their trip
       </p>
-      <div className="image-prototype">
-      <img src="/flowchart.png"  className="verify"  />
-      <img src="/flowchart2.png" className="verify" />
-      <img src="/flowchart3.png" className="verify" />
-      <img src="/flowchart4.png" className="verify"  />
-      <img src="/flowchart5.png" className="verify" />
-      <img src="/flowchart6.png" className="verify" />
+     
+      <div className="double-image-container">
+        <img src="/flowchart.png"  />
+        <img src="/flowchart2.png" />
       </div>
+      <div className="double-image-container">
+        <img src="/flowchart3.png"  />
+        <img src="/flowchart4.png"  />
+      </div>
+      <div className="double-image-container">
+        <img src="/flowchart5.png"  />
+        <img src="/flowchart6.png"  />
+      </div>
+      
+    
       
       <hr className="header-line2" />
       <header className="header">
@@ -121,6 +128,16 @@ By creating these relatable personas, we aim to truly empathize with our users�
       For the functional prototype, we chose to use Next.js in combination with Supabase for authentication. Next.js is an incredibly powerful framework for rapid development, as it comes with built-in capabilities for creating API routes, streamlining the development process. Supabase, on the other hand, offers a straightforward way to implement authentication, making it easy for us to m anage user access and security
       We started with low-fidelity wireframes to outline the basic structure and user experience. Once we had a solid foundation, we moved on to high-fidelity prototypes, refining our designs and functionalities to better meet user needs. This approach allowed us to iterate quickly and ensure that our prototype effectively addresses the challenges we identified during our research. The video can be assessed through this <a href="https://www.youtube.com/watch?v=tQRpEuNzLrw"><u>link</u></a>
       </p>
+
+      <div className="three-image-container">
+        <img src="/low.png" alt="Spara Persona" className="three-image" />
+        <img
+          src="/high.png"
+          alt="Jeff Persona"
+          className="three-image"
+        />
+        <img src="/high2.png" alt="Delphina Persona" className="three-image" />
+      </div>
 
       <hr className="header-line2" />
       <header className="header">
@@ -145,8 +162,6 @@ To further refine our understanding, we chose the "Conceptual Model Extraction" 
       <p className="para3">
       Reflecting on my experience in COMP 4461 and the "Travel Buddy" project, I find myself feeling both grateful and enlightened. This course has deepened my understanding of human-computer interaction, allowing me to explore the intricate relationship between users and technology. Working alongside my groupmates, Surya and Antariksh, has been particularly rewarding. Collaborating with them not only sparked creativity but also fostered a sense of camaraderie as we navigated the challenges of our project together.
       </p>
-      <img src="/personal_back.jpg" className="pyramid" />
-
       <p className="para3">
       One of the most impactful aspects of this assignment was the emphasis on empathy. Engaging with our target audience—frequent travelers and exchange students—allowed us to step into their shoes and understand their unique experiences and challenges. Conducting interviews and utilizing ethnographic methods opened my eyes to the real-life hurdles travelers face, from logistical nightmares to the emotional stress of acclimating to new environments. This firsthand insight was invaluable in shaping our design decisions and ensuring that "Travel Buddy" truly addresses user needs.
       </p>
